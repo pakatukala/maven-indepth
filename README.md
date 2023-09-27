@@ -15,8 +15,7 @@ If you don’t care to follow convention, Maven will allow you to customize defa
 The POM is where a project’s identity and structure are declared, builds are configured, and projects are related to one another. The presence of a pom.xml file defines a Maven project.
 The pom.xml is structured in to 4 parts as shown below
 
-```
-           <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+"<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <!-- Basics -->
            <groupId>com.example</groupId>
            <artifactId>my-app</artifactId>
@@ -89,12 +88,12 @@ The pom.xml is structured in to 4 parts as shown below
     </developers>
     <!-- Environment Settings -->
     <scm>
-        <connection>scm:git:git@vmlnxatlstash.lowes.com:42000/e-tns/tachyon-plaza.git</connection>
+        <connection></connection>
         <developerConnection></developerConnection>
         <url></url>
         <tag>tachyon-plaza</tag>
     </scm>
 <profiles>
 </profiles>
-</project>
-```
+</project>"
+
