@@ -92,7 +92,7 @@ The pom.xml is structured in to 4 parts as shown below
         <connection></connection>
         <developerConnection></developerConnection>
         <url></url>
-        <tag>tachyon-plaza</tag>
+        <tag>pavan-plaza</tag>
     </scm>
 <profiles>
 </profiles>
